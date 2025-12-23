@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int ans;
+    printf("2 + 2 = ? ");
+    scanf("%d", &ans);
+
+    if (ans == 4)
+        printf("Correct");
+    else
+        printf("Wrong");
+    return 0;
+}
